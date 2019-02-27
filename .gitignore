@@ -106,5 +106,6 @@ venv.bak/
 # Custom ignores 
 images/
 .vscode/
-.code-workspace
+*.code-workspace
 Trashware/
+Trashware.code-workspace
