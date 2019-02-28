@@ -18,6 +18,9 @@ The following software packages were used to power this project -<br><br>
 +   Clarifai REST API<br><br>
 > # How To Build
 1. Connect the ultrasonic sensor and the bluetooth module according to the configurations in the <code>ultrasonic_with_bluetooth/ultrasonic_with_bluetooth.ino</code> file.
-2. 
+2. Upload the <code>.ino</code> file to the Arduino and connect it to your computer.
+3. Now configure the software part. Inside the project directory, run the following commands -
+   +   <pre><code></code></pre>
+4. Now run the <code>Main_Program.py</code> in terminal
 <br><br>
 <em>Feel free to pull requests and open issues.</em>
