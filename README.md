@@ -27,7 +27,7 @@ The following software packages were used to power this project -<br><br>
 5. If everything went well, then the program will display the ultrasonic sensor readings on the screen. You can also view the sensor readings on your Android or IOS device by downloading an arduino emulator.
 6. If an object is kept in the range of 30 cm in front of the ultrasonic sensor, then the ``Webcam_Capture.py`` captures the image through a webcam connected to computer, and the ``Image_Prediction.py`` predicts the captured image and classifies it as recyclable or non-recyclable.
 7. If the object is recyclable, then the servo motor turns 45 degree right, dumping it in the recyclable bin. And if the object is non-recyclable, then the servo motor turns 45 degree left dumping it in the non-recyclable bin. 
-> ##### Note - The code for the servo motor will be added in the future commits. Watch the repository for changes.
+> #### Note - The code for the servo motor will be added in the future commits. Watch the repository for changes.
 <br>
-<em>Share and fork the project if you would like to.</em>
+<em>Share and fork the project if you would like to.</em><br>
 <em>Feel free to pull requests and open issues.</em>
