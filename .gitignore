@@ -109,5 +109,5 @@ images/
 *.code-workspace
 Trashware/
 Trashware.code-workspace
-capture.jpg
-.jpg
+capture.jpg/
+__init__.py/

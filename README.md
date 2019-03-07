@@ -1,6 +1,7 @@
 > # Trashware 
 ![Made With Python](https://forthebadge.com/images/badges/made-with-python.svg) ![Built With Love](https://forthebadge.com/images/badges/built-with-love.svg)<br>
 ![Trashware](https://img.shields.io/badge/Trashware--blue.svg) ![Python 3.7.0](https://img.shields.io/badge/Python-3.7.0-brightgreen.svg)<br><br>
+<center><img src="logo.png" style="height: 350px; width: 350px;"></center>
 Trashware is a project which aims at environment cleanliness through smart devices. The device hacked in this project uses image recognition to identify recyclable and non-recyclable waste and seperate them in 2 different bins. <br><br>
 > # Hardware 
 The following parts were used to build this project -<br><br>
