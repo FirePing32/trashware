@@ -2,9 +2,15 @@ import serial
 import subprocess
 import sys 
 import time
+import os
+from os.path import join, dirname
+from dotenv import load_dotenv
 
-port = 'COM3'
-rate = 9600
+dotenv_path = join(dirname(__file__), '.env')
+load_dotenv(dotenv_path)
+
+port = os.getenv('PORT')
+rate = int(os.getenv('RATE'))
 
 arduino = serial.Serial(port, rate)
     

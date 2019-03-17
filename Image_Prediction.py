@@ -1,7 +1,13 @@
 """ Clarifai API v2.0 """
-
+import os
+from os.path import join, dirname
+from dotenv import load_dotenv
 from clarifai.rest import ClarifaiApp
-app = ClarifaiApp(api_key='e58f62ba537f43f898a403e6028ad43a')
+
+dotenv_path = join(dirname(__file__), '.env')
+load_dotenv(dotenv_path)
+
+app = ClarifaiApp(api_key=os.getenv('CLARIFAI_API_KEY'))
 
 model = app.models.get('Trash')
 model.train()

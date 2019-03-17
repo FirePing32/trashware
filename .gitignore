@@ -103,10 +103,11 @@ venv.bak/
 # mypy
 .mypy_cache/
 
-# Custom ignores 
+### Custom ignores ### 
 images/
 .vscode/
 *.code-workspace
 Trashware/
 Trashware.code-workspace
 capture.jpg
+*.jpg
